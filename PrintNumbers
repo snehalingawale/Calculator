@@ -1,0 +1,53 @@
+package com.inportia;
+
+public class PrintNumbers {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		printNumbers();
+		printNumbers1();
+		printNumbers2();
+		printNumbers3();
+	
+		
+	}
+	public static void printNumbers(){
+		int i=1;//initialization
+		while(i<=10){
+			System.out.println(" "+i);
+			i++;
+			
+			
+		}
+	}
+	public static void printNumbers1(){
+		
+		int i=10;
+		while(i>=1){
+			System.out.print(" "+i);
+			i--;
+		}
+	}
+	public static void printNumbers2(){
+		int i=1;
+		System.out.println("");
+		while(i<=20){
+			System.out.print(" " +i);
+			i=i+2;
+			
+		}
+			
+	}
+    public static void printNumbers3(){
+    	int i=0;
+		System.out.println("");
+		while(i<=20){
+			System.out.print(" " +i);
+			i=i+2;
+			
+		}
+			
+	}
+
+}
+	
